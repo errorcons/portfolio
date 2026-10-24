@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta
+    name="description"
+    content="The student portfolio of Rhespaulin P. Manugas, BS Information Technology."
+  >
+  <title>Rhespaulin P. Manugas — Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+  <div
+    id="messageNotification"
+    class="message-notification"
+    role="status"
+    aria-live="polite"
+    aria-atomic="true"
+    hidden
+  >
+    <span id="messageNotificationText"></span>
+
+    <button
+      type="button"
+      id="closeNotification"
+      aria-label="Dismiss notification"
+    >
+      ×
+    </button>
+  </div>
+
+  <div class="paper-grain" aria-hidden="true"></div>
+
+  <header class="site-header">
+    <nav class="nav container" aria-label="Main navigation">
+      <a class="brand" href="#home">
+        <span class="brand-mark">rp.</span>
+        <span>Rhespaulin <i>P. Manugas</i></span>
+      </a>
+
+      <button
+        type="button"
+        class="menu-toggle"
+        aria-label="Toggle navigation"
+        aria-expanded="false"
+        aria-controls="nav-links"
+      >
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <div class="nav-links" id="nav-links">
+        <a href="#home" class="active">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+
+        <button
+          type="button"
+          class="nav-contact open-contact-modal"
+        >
+          Let's talk <span>↗</span>
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero container" id="home">
+      <div class="hero-copy">
+        <p class="eyebrow">
+          <span class="tiny-star">✳</span> PORTFOLIO / 2026
+        </p>
+
+        <p class="intro-kicker">Hello there, I'm</p>
+
+        <h1>
+          Rhespaulin<br>
+          <em>P. Manugas.</em>
+        </h1>
+
+        <p class="hero-lead">
+          IT student with a curious mind and a soft spot for thoughtful
+          digital experiences.
+        </p>
+
+        <p class="hero-description">
+          I’m learning to turn ideas into useful, human-centered projects,
+          one experiment, one line of code, and one new skill at a time.
+        </p>
+
+        <div class="hero-actions">
+          <a class="button button-primary" href="#projects">
+            Explore my work <span>↘</span>
+          </a>
+
+          <a class="text-link" href="#about">
+            A little about me <span>↗</span>
+          </a>
+        </div>
+
+        <div class="hero-caption">
+          <span class="caption-line"></span>
+          <span>BS INFORMATION TECHNOLOGY</span>
+          <span class="caption-star">✳</span>
+        </div>
+      </div>
+
+      <div class="hero-visual">
+        <div class="shape shape-blob"></div>
+        <div class="shape shape-ring"></div>
+
+        <div class="poster-card photo-card">
+          <div class="poster-top">
+            <span>THE CREATIVE PROCESS</span>
+            <span>NO. 001</span>
+          </div>
+
+          <div class="photo-frame">
+            <img
+              src="Me.jfif"
+              alt="Portrait of Rhespaulin P. Manugas"
+              loading="lazy"
+            >
+          </div>
+
+          <div class="poster-bottom">
+            <span>DESIGN · CODE · DISCOVER</span>
+            <span>✳</span>
+          </div>
+        </div>
+
+        <div class="floating-note note-one">✳ always learning</div>
+        <div class="floating-note note-two">made with curiosity ♡</div>
+
+        <div class="visual-index">01 — 05</div>
+      </div>
+
+      <a class="scroll-cue" href="#about">
+        SCROLL A LITTLE <span>↓</span>
+      </a>
+    </section>
+
+    <section class="about-section section" id="about">
+      <div class="container">
+        <div class="section-top">
+          <span class="section-index">01</span>
+          <p class="eyebrow">A LITTLE INTRODUCTION</p>
+        </div>
+
+        <div class="about-grid">
+          <h2>
+            Learning to make<br>
+            technology feel a little<br>
+            <em>more human.</em>
+          </h2>
+
+          <div class="about-copy">
+            <p class="lead-copy">
+              I’m a BS Information Technology student who enjoys exploring
+              how technology can solve problems and bring ideas to life.
+            </p>
+
+            <p>
+              Through school and practice projects, I’m building my skills
+              in planning, designing, and developing digital solutions.
+              I believe good work comes from staying curious, asking
+              questions, and being willing to improve.
+            </p>
+
+            <div class="signature">
+              Curiously creating, <span>R.</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="values-row">
+          <div>
+            <span>01 /</span>
+            <b>Learn with purpose</b>
+            <p>Understand the problem before choosing a solution.</p>
+          </div>
+
+          <div>
+            <span>02 /</span>
+            <b>Make &amp; improve</b>
+            <p>Practice new ideas through hands-on projects.</p>
+          </div>
+
+          <div>
+            <span>03 /</span>
+            <b>Stay curious</b>
+            <p>Keep exploring tools, techniques, and possibilities.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="skills-section section" id="skills">
+      <div class="container">
+        <div class="section-top">
+          <span class="section-index">02</span>
+          <p class="eyebrow">MY LEARNING TOOLKIT</p>
+        </div>
+
+        <div class="section-heading-row">
+          <h2>
+            A few things<br>
+            <em>I’m working on.</em>
+          </h2>
+
+          <p>
+            My skills are growing with every assignment and experiment.
+            Here are some of the areas I’m currently exploring.
+          </p>
+        </div>
+
+        <div class="skills-grid">
+          <article class="skill-card">
+            <div class="skill-card-head">
+              <span class="skill-number">01</span>
+              <span class="skill-doodle">⌘</span>
+            </div>
+
+            <h3>Web development</h3>
+            <p>
+              Building the structure, style, and interactions of websites.
+            </p>
+
+            <div class="skill-tags">
+              <span>HTML</span>
+              <span>CSS</span>
+              <span>JavaScript</span>
+            </div>
+          </article>
+
+          <article class="skill-card">
+            <div class="skill-card-head">
+              <span class="skill-number">02</span>
+              <span class="skill-doodle">◌</span>
+            </div>
+
+            <h3>Interface design</h3>
+            <p>
+              Exploring layout, visual hierarchy, and user-friendly
+              experiences.
+            </p>
+
+            <div class="skill-tags">
+              <span>UI basics</span>
+              <span>Wireframes</span>
+            </div>
+          </article>
+
+          <article class="skill-card">
+            <div class="skill-card-head">
+              <span class="skill-number">03</span>
+              <span class="skill-doodle">✳</span>
+            </div>
+
+            <h3>Problem-solving</h3>
+            <p>
+              Breaking challenges into smaller steps and learning
+              through debugging.
+            </p>
+
+            <div class="skill-tags">
+              <span>Logic</span>
+              <span>Debugging</span>
+            </div>
+          </article>
+
+          <article class="skill-card">
+            <div class="skill-card-head">
+              <span class="skill-number">04</span>
+              <span class="skill-doodle">↗</span>
+            </div>
+
+            <h3>Project building</h3>
+            <p>
+              Planning features, testing ideas, and improving work
+              with feedback.
+            </p>
+
+            <div class="skill-tags">
+              <span>Testing</span>
+              <span>Documentation</span>
+            </div>
+          </article>
+        </div>
+
+        <p class="skills-footnote">
+          A work in progress and happy to keep it that way.
+        </p>
+      </div>
+    </section>
+
+    <section class="projects-section section" id="projects">
+      <div class="container">
+        <div class="section-top">
+          <span class="section-index">03</span>
+          <p class="eyebrow">SOME THINGS I’VE BEEN MAKING</p>
+        </div>
+
+        <div class="section-heading-row">
+          <h2>
+            Small steps.<br>
+            <em>Meaningful ideas.</em>
+          </h2>
+
+          <p>
+            Two student projects that bring together technology,
+            creativity, and problem-solving.
+          </p>
+        </div>
+
+        <article class="project-card project-atiman">
+          <div class="project-visual atiman-visual">
+            <div class="visual-label">
+              PROJECT 01 <span>✳</span>
+            </div>
+
+            <img
+              class="atiman-screenshot"
+              src="atiman.jfif"
+              alt="Atiman mobile dashboard showing an older adult's profile, heart rate, body temperature, and medication reminder."
+              loading="lazy"
+            >
+          </div>
+
+          <div class="project-info">
+            <div class="project-meta">
+              <span>IoT · HEALTH TECHNOLOGY</span>
+              <span>2026 / 01</span>
+            </div>
+
+            <h3>Atiman</h3>
+
+            <p>
+              An IoT-based smart health monitoring and medication reminder
+              system designed for older adults with specific needs. The
+              system enables registered family caregivers and care facility
+              staff to monitor vital signs, manage medication schedules, and
+              receive automated emergency alerts whenever critical health
+              updates or missed doses occur.
+            </p>
+
+            <div class="project-tags">
+              <span>Health monitoring</span>
+              <span>Medication reminders</span>
+              <span>Caregiver alerts</span>
+            </div>
+
+            <div class="project-role">
+              <span>MY ROLE</span>
+              <p>Project Manager &amp; Backend Programmer</p>
+            </div>
+
+            <div class="project-link-row">
+              <span><i></i> Student research project</span>
+              <a href="#contact">Talk about Atiman ↗</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card project-ecoquest">
+          <div class="project-visual ecoquest-visual">
+            <img
+              class="ecoquest-screenshot"
+              src="ecoquest.jfif"
+              alt="EcoQuest gameplay showing the player exploring an island and collecting plastic."
+              loading="lazy"
+            >
+          </div>
+
+          <div class="project-info">
+            <div class="project-meta">
+              <span>GAME DEVELOPMENT · ENVIRONMENT</span>
+              <span>2026 / 02</span>
+            </div>
+
+            <h3>EcoQuest</h3>
+
+            <p>
+              A single-player survival and adventure game concept made
+              with Godot. Players explore an island, collect materials,
+              take on environmental cleanup challenges, and learn from
+              an environmental guide character.
+            </p>
+
+            <div class="project-tags">
+              <span>Godot</span>
+              <span>Game mechanics</span>
+              <span>Environmental awareness</span>
+            </div>
+
+            <div class="project-role">
+              <span>MY ROLE</span>
+              <p>Project Manager</p>
+            </div>
+
+            <div class="project-link-row">
+              <span><i></i> Student game project</span>
+              <a href="#contact">Talk about EcoQuest ↗</a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="contact-section section" id="contact">
+      <div class="container contact-wrap">
+        <div class="section-top">
+          <span class="section-index">04</span>
+          <p class="eyebrow">SAY HELLO</p>
+        </div>
+
+        <div class="contact-grid">
+          <div>
+            <h2>
+              Have an idea?<br>
+              Let’s <em>talk about it.</em>
+            </h2>
+
+            <p class="contact-intro">
+              I’m always open to learning, sharing ideas, and connecting
+              with people who enjoy making things.
+            </p>
+
+            <button
+              type="button"
+              class="button button-dark open-contact-modal"
+              id="contact-info"
+            >
+              Send me an email <span>↗</span>
+            </button>
+          </div>
+
+          <div class="contact-card">
+            <span class="contact-spark">✳</span>
+
+            <p class="contact-card-label">CURRENT CHAPTER</p>
+
+            <h3>
+              Student life.<br>
+              Curious mind.<br>
+              Lots to learn.
+            </h3>
+
+            <div class="contact-rule"></div>
+
+            <p class="contact-card-label">STUDYING</p>
+            <p class="contact-course">BS Information Technology</p>
+
+            <a href="#home" class="back-home">Back to the top ↑</a>
+          </div>
+        </div>
+      </div>
+      
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <a class="brand" href="#home">
+        <span class="brand-mark">rp.</span>
+      <i>Rhespaulin P. Manugas</i>
+      </a>
+
+      <p>Made with curiosity &amp; a little bit of code.</p>
+    <a href="https://github.com/errorcons"
+   target="_blank"
+   rel="noopener noreferrer"
+   class="social-button github-button">
+  <i class="fab fa-github"></i> GitHub
+</a>
+
+<a href="https://www.facebook.com/rhespaulin.manugas"
+   target="_blank"
+   rel="noopener noreferrer"
+   class="social-button facebook-button">
+  <i class="fab fa-facebook-f"></i> Facebook
+</a>
+      <span>© <span id="year"></span> / PORTFOLIO</span>
+    </div>
+  </footer>
+
+  <div class="contact-modal" id="contactModal" aria-hidden="true">
+    <div class="contact-modal-backdrop" data-close-modal></div>
+
+    <div
+      class="contact-modal-box"
+      role="dialog"
+      aria-modal="true"
+      aria-labelledby="contactModalTitle"
+    >
+      <button
+        class="contact-modal-close"
+        type="button"
+        aria-label="Close contact form"
+        data-close-modal
+      >
+        ×
+      </button>
+
+      <span class="contact-modal-spark">✳</span>
+
+      <p class="contact-modal-label">LET’S CONNECT</p>
+
+      <h3 id="contactModalTitle">
+        Have an idea?<br>
+        Let’s <em>talk about it.</em>
+      </h3>
+
+      <p class="contact-modal-text">
+        Prepare a message to open in your email app.
+        You will still need to send it there.
+      </p>
+
+            <form id="contactForm">
+        <label for="visitorName">Your name</label>
+        <input
+          type="text"
+          id="visitorName"
+          name="visitorName"
+          autocomplete="name"
+          placeholder="Enter your name"
+          required
+        >
+
+        <label for="visitorEmail">Your email</label>
+        <input
+          type="email"
+          id="visitorEmail"
+          name="visitorEmail"
+          autocomplete="email"
+          placeholder="Enter your email"
+          required
+        >
+
+        <label for="visitorMessage">Message</label>
+        <textarea
+          id="visitorMessage"
+          name="visitorMessage"
+          rows="5"
+          placeholder="Tell me about your idea, question, or project."
+          required
+        ></textarea>
+
+        <button
+          type="submit"
+          class="button button-primary contact-modal-submit"
+        >
+          Send through email <span>↗</span>
+        </button>
+      </form>
+
+      <p class="contact-modal-note">
+        Recipient: <span>rhespaulin@gmail.com</span>
+      </p>
+    </div>
+  </div>
+</body>
+</html>
